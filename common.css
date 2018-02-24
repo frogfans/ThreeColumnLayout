@@ -1,0 +1,29 @@
+html {
+    padding: 0 50px;
+}
+
+body {
+    //  min-width: 700px;
+}
+
+p {
+    margin: 10px auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header, .footer {
+    height: 50px;
+    width: 100%;
+    background: #666;
+    clear: both;
+}
+
+.divide {
+    clear: both;
+    height: 50px;
+    padding-top: 20px;
+}

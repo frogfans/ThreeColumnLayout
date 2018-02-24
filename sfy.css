@@ -1,0 +1,30 @@
+.sfy {
+}
+
+.sfy .main {
+    width: 100%;
+    float: left;
+}
+
+.sfy .left {
+    width: 250px;
+    height: 40px;
+    background: #E79F6D;
+    float: left;
+    margin-left: -100%;
+}
+
+.sfy .right {
+    height: 30px;
+    float: left;
+    width: 300px;
+    background: #77BBDD;
+    margin-left: -300px;
+}
+
+.sfy .inner {
+    height: 50px;
+    margin-left: 250px;
+    margin-right: 300px;
+    background: #D6D6D6;
+}
