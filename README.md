@@ -3,13 +3,162 @@
 
 参考[css+js实现banner图片轮播](https://frogfans.github.io/blog.html?blogId=17)，其中banner实现过程即为传统布局，按照左-中-右顺序渲染。
 
+**html部分**
+
+```
+  <div class="pt"> 
+   <div class="left">
+     Left 
+   </div> 
+   <div class="main">
+     Main 
+   </div> 
+   <div class="right">
+     Right 
+   </div> 
+  </div> 
+```
+
+**css部分**
+
+```
+.pt {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.pt .left {
+    width: 250px;
+    height: 40px;
+    background: #E79F6D;
+}
+
+.pt .main {
+    width: 100%;
+    height: 50px;
+    flex:1;
+    background: #D6D6D6;
+}
+
+.pt .right {
+    width: 300px;
+    height: 30px;
+    background: #77BBDD;
+}
+```
+
 2. 圣杯布局
 
 参考[【聊一聊】css中的经典布局——圣杯布局](http://www.cnblogs.com/hl-520/p/5753075.html)，按照博主教程逐步尝试，并加以理解。
 
+**html部分**
+
+```
+  <div class="sb"> 
+   <div class="main">
+     Main 
+   </div> 
+   <div class="left">
+     Left 
+   </div> 
+   <div class="right">
+     Right 
+   </div> 
+  </div> 
+```
+
+**css部分**
+
+```
+.sb {
+    padding-left: 250px;
+    padding-right: 300px;
+}
+
+.sb .main {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #D6D6D6;
+}
+
+.sb .left {
+    width: 250px;
+    height: 40px;
+    background: #E79F6D;
+    float: left;
+    margin-left: -100%;
+    position: relative;
+    left: -250px;
+}
+
+.sb .right {
+    float: left;
+    width: 300px;
+    height: 30px;
+    background: #77BBDD;
+    margin-left: -300px;
+    position: relative;
+    right: -300px;
+}
+```
+
 3. 双飞翼布局
 
 参考[【聊一聊】css中的经典布局——双飞翼布局](https://www.cnblogs.com/hl-520/p/5754111.html)，在圣杯布局基础上改造。
+
+**html部分**
+
+```
+  <div class="sfy"> 
+   <div class="main"> 
+    <div class="inner">
+      Main 
+    </div> 
+   </div> 
+   <div class="left">
+     Left 
+   </div> 
+   <div class="right">
+     Right 
+   </div> 
+  </div> 
+```
+
+**css部分**
+
+```
+.sfy {
+}
+
+.sfy .main {
+    width: 100%;
+    float: left;
+}
+
+.sfy .left {
+    width: 250px;
+    height: 40px;
+    background: #E79F6D;
+    float: left;
+    margin-left: -100%;
+}
+
+.sfy .right {
+    height: 30px;
+    float: left;
+    width: 300px;
+    background: #77BBDD;
+    margin-left: -300px;
+}
+
+.sfy .inner {
+    height: 50px;
+    margin-left: 250px;
+    margin-right: 300px;
+    background: #D6D6D6;
+}
+```
 
 ---
 ## 二、 实际体验
