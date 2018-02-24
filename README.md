@@ -161,9 +161,9 @@
 ```
 
 ---
-## 二、 实际体验
+## 二、 在线体验
 
-[固比固三栏式布局对比](https://frogfans.github.io/blog.html?blogId=18)
+[ThreeColumnLayout](https://frogfans.github.io/res/html/threecolumnlayout.html)
 
 对整个浏览器窗口进行缩放即可。
 
