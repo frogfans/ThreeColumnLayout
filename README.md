@@ -161,14 +161,7 @@
 ```
 
 ---
-## 二、 在线体验
-
-[ThreeColumnLayout](https://frogfans.github.io/res/html/threecolumnlayout.html)
-
-对整个浏览器窗口进行缩放即可。
-
----
-## 三、 对比总结
+## 二、 对比总结
 - 总宽度：
 
 Left 250px + Main + Right 300px。
@@ -219,3 +212,10 @@ Left 250px + Main + Right 300px。
 **圣杯布局** 保证了左右栏布局完整，牺牲了整个布局；
 
 **双飞翼布局** 保证了左右栏相对位置完整，牺牲了Main内容。
+
+---
+## 三、 在线体验
+
+[ThreeColumnLayout on-line](https://frogfans.github.io/res/html/threecolumnlayout.html)
+
+对整个浏览器窗口进行缩放即可。
