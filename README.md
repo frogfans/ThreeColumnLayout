@@ -16,6 +16,8 @@
 
 [固比固三栏式布局对比](https://frogfans.github.io/blog.html?blogId=18)
 
+对整个浏览器窗口进行缩放即可。
+
 ---
 ## 三、 对比总结
 - 总宽度：
