@@ -162,21 +162,21 @@
 
 ---
 ## 二、 对比总结
-- 总宽度：
+1. 总宽度：
 
 Left 250px + Main + Right 300px。
 
 ![](https://github.com/frogfans/ThreeColumnLayout/blob/master/img/001.png?raw=true)
 
 ** **
-- 第一个临界值：700px，即 Main = Left 时：
+2. 第一个临界值：700px，即 Main = Left 时：
 
 **圣杯布局** 被挤乱。
 
 ![](https://github.com/frogfans/ThreeColumnLayout/blob/master/img/002.png?raw=true)
 
 ** **
-- 第二个临界值：550px + Main容纳文字的最小宽度：
+3. 第二个临界值：550px + Main容纳文字的最小宽度：
 
 **传统布局** 中Left和Right被压缩，Main固定为最小宽度；
 
@@ -187,7 +187,7 @@ Left 250px + Main + Right 300px。
 ![](https://github.com/frogfans/ThreeColumnLayout/blob/master/img/003.png?raw=true)
 
 ** **
-- 第三个临界值：550px，即 Main = 0 时：
+4. 第三个临界值：550px，即 Main = 0 时：
 
 **圣杯布局** 整个布局混乱；
 
@@ -196,7 +196,7 @@ Left 250px + Main + Right 300px。
 ![](https://github.com/frogfans/ThreeColumnLayout/blob/master/img/004.png?raw=true)
 
 ** **
-- 对比：
+5. 对比：
 
 **传统布局** 能很好地保持整个三栏式布局的格式，在无需将Main优先渲染的情况下可以使用；
 
@@ -205,7 +205,7 @@ Left 250px + Main + Right 300px。
 **双飞翼布局** 至少需要将整个布局最小宽度设置为第三个临界值，即Main完全消失时，保证左右栏布局完整。
 
 ** **
-- 总结：
+6. 总结：
 
 **传统布局** 保证了Main内容完整，牺牲了左右栏布局；
 
@@ -217,5 +217,3 @@ Left 250px + Main + Right 300px。
 ## 三、 在线体验
 
 [ThreeColumnLayout on-line](https://frogfans.github.io/res/html/threecolumnlayout.html)
-
-对整个浏览器窗口进行缩放即可。
