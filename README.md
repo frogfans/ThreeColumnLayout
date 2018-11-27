@@ -5,7 +5,7 @@
 
 **html部分**
 
-```
+```html
   <div class="pt"> 
    <div class="left">
      Left 
@@ -21,7 +21,7 @@
 
 **css部分**
 
-```
+```css
 .pt {
     display: -webkit-flex;
     display: flex;
@@ -53,7 +53,7 @@
 
 **html部分**
 
-```
+```html
   <div class="sb"> 
    <div class="main">
      Main 
@@ -69,7 +69,7 @@
 
 **css部分**
 
-```
+```css
 .sb {
     padding-left: 250px;
     padding-right: 300px;
@@ -109,7 +109,7 @@
 
 **html部分**
 
-```
+```html
   <div class="sfy"> 
    <div class="main"> 
     <div class="inner">
@@ -127,7 +127,7 @@
 
 **css部分**
 
-```
+```css
 .sfy {
 }
 
